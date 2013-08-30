@@ -1,7 +1,8 @@
+package vegas;
 /**
  * Copyright 2013 Gokila Rajaiah.  All rights reserved.  For internal use only.
  */
-package com.vegas.interview.PackageMaker;
+
 
 /**
  * Abstract PackageItem class with id, price & type value.

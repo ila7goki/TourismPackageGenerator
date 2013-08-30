@@ -1,7 +1,7 @@
 /**
  * Copyright 2013 Gokila Rajaiah.  All rights reserved.  For internal use only.
  */
-package com.vegas.interview.PackageMaker;
+package vegas;
 
 import java.util.ArrayList;
 import java.util.List;

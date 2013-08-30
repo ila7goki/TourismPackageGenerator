@@ -1,7 +1,8 @@
+package vegas;
 /**
  * Copyright 2013 Gokila Rajaiah.  All rights reserved.  For internal use only.
  */
-package com.vegas.interview.PackageMaker;
+
 
 import java.io.BufferedReader;
 import java.io.DataInputStream;
@@ -12,9 +13,9 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.vegas.interview.PackageMaker.PackageItemTypes.Hotel;
-import com.vegas.interview.PackageMaker.PackageItemTypes.Show;
-import com.vegas.interview.PackageMaker.PackageItemTypes.Tour;
+import vegas.PackageItemTypes.Hotel;
+import vegas.PackageItemTypes.Show;
+import vegas.PackageItemTypes.Tour;
 
 /**
  * Class to organize the different package lists from input file and creating
@@ -181,11 +182,11 @@ public class PackageOrganizer
 								break;
 
 							case "TOUR":
-								Tour tour = new Tour();
+							Tour tour = new Tour();
 								tour.setId(id);
 								tour.setPrice(price);
 								tour.setType(PackageItemType.TOUR);
-								tourList.add(tour);
+							tourList.add(tour);
 								break;
 
 							default:

@@ -1,9 +1,9 @@
 /**
  * Copyright 2013 Gokila Rajaiah.  All rights reserved.  For internal use only.
  */
-package com.vegas.interview.PackageMaker.PackageItemTypes;
+package vegas.PackageItemTypes;
 
-import com.vegas.interview.PackageMaker.PackageItem;
+import vegas.PackageItem;
 
 /**
  * Represents PackageItem type HOTEL

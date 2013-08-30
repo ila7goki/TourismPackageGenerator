@@ -1,11 +1,12 @@
+package vegas;
 /**
  * Copyright 2013 Gokila Rajaiah.  All rights reserved.  For internal use only.
  */
-package com.vegas.interview.PackageMaker;
 
-import com.vegas.interview.PackageMaker.PackageItemTypes.Hotel;
-import com.vegas.interview.PackageMaker.PackageItemTypes.Show;
-import com.vegas.interview.PackageMaker.PackageItemTypes.Tour;
+
+import vegas.PackageItemTypes.Hotel;
+import vegas.PackageItemTypes.Show;
+import vegas.PackageItemTypes.Tour;
 
 /**
  * Represents the Package object with totalPrice, & different types of package
